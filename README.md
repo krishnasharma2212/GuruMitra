@@ -35,7 +35,7 @@ Teachers send a short voice note and receive **quick, actionable guidance** with
 
 | App Demo | WhatsApp Bot Demo |
 |---------|------------------|
-| [![App Demo](https://img.youtube.com/vi/YOUR_APP_VIDEO_ID/hqdefault.jpg)](https://youtu.be/YOUR_APP_VIDEO_ID) | [![WhatsApp Demo](https://img.youtube.com/vi/YOUR_WA_VIDEO_ID/hqdefault.jpg)](https://youtu.be/YOUR_WA_VIDEO_ID) |
+| [![App Demo](/assets/media/whatsappPhoto.jpg)](https://youtube.com/shorts/Q1oHeMXDU1Q?feature=share) | [![WhatsApp Demo](https://img.youtube.com/vi/YOUR_WA_VIDEO_ID/hqdefault.jpg)]([https://youtu.be/YOUR_WA_VIDEO_ID](https://youtube.com/shorts/Q1oHeMXDU1Q?feature=share)) |
 
 ---
 
