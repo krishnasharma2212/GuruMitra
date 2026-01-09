@@ -33,10 +33,11 @@ Teachers send a short voice note and receive **quick, actionable guidance** with
 
 ### 🎥 Demo Videos
 
-| App Demo | WhatsApp Bot Demo |
-|---------|------------------|
-| [![App Demo](/assets/media/appvideo.png)]([https://youtube.com/shorts/Q1oHeMXDU1Q?feature=share](https://youtube.com/shorts/tGdm1xshlYg?feature=share)) | [![WhatsApp Demo](whastsappVideo.png)]([https://youtu.be/YOUR_WA_VIDEO_ID](https://youtube.com/shorts/Q1oHeMXDU1Q?feature=share)) |
+| App Demo                                                                                                                                                         | WhatsApp Bot Demo                                                                                                                                                               |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href="https://youtube.com/shorts/tGdm1xshlYg?feature=share"><img src="/assets/media/appvideo.png" width="180" alt="Guru Mitra App Demo – Click to play"/></a> | <a href="https://youtube.com/shorts/Q1oHeMXDU1Q?feature=share"><img src="/assets/media/whastsappVideo.png" width="180" alt="Guru Mitra WhatsApp Bot Demo – Click to play"/></a> |
 
+---
 ---
 
 ### 🔄 How it Works
