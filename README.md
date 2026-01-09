@@ -40,7 +40,7 @@
 
 |                                WhatsApp Bot (1) |              Mobile App (3)              |
 | ----------------------------------------------: | :--------------------------------------: |
-| ![WhatsApp Bot](/assets/media/hatsappPhoto.jpg) | ![App 1](/assets/media/appPhoto1.jpg) |
+| ![WhatsApp Bot](/assets/media/whatsappPhoto.jpg) | ![App 1](/assets/media/appPhoto1.jpg) |
 |                                                 | ![App 2](/assets/media/appPhoto2.jpg) |
 |                                                 | ![App 3](/assets/media/appPhoto3.jpg) |
 
