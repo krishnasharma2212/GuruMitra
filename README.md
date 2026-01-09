@@ -40,14 +40,24 @@
 
 |                                WhatsApp Bot (1) |              Mobile App (3)              |
 | ----------------------------------------------: | :--------------------------------------: |
-| ![WhatsApp Bot](/assets/media/whatsapp_bot.png) | ![App 1](/assets/media/app_screen_1.png) |
-|                                                 | ![App 2](/assets/media/app_screen_2.png) |
-|                                                 | ![App 3](/assets/media/app_screen_3.png) |
+| ![WhatsApp Bot](/assets/media/hatsappPhoto.jpg) | ![App 1](/assets/media/appPhoto1.jpg) |
+|                                                 | ![App 2](/assets/media/appPhoto2.jpg) |
+|                                                 | ![App 3](/assets/media/appPhoto3.jpg) |
 
-**Short videos**
+## 🎥 Watch the Demos
 
-* App walkthrough: `/assets/media/video_app_demo.mp4`
-* WhatsApp bot demo: `/assets/media/video_whatsapp_demo.mp4`
+<div align="center">
+
+[![App Demo](https://img.youtube.com/vi/YOUR_APP_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/YOUR_APP_VIDEO_ID)
+**App walkthrough** • 30–60s • _TTS, quick fixes_
+
+&nbsp;&nbsp;&nbsp;
+
+[![WhatsApp Demo](https://img.youtube.com/vi/YOUR_WA_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/YOUR_WA_VIDEO_ID)
+**WhatsApp bot demo** • 30–60s • _Voice note → reply_
+
+</div>
+
 
 > Tip: For GitHub Releases, attach the APK and video files. Large media can be attached to the Release or hosted externally (YouTube/Vimeo) and linked here.
 
