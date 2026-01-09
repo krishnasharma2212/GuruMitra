@@ -1,152 +1,128 @@
-# Guru Mitra
+# 🚀 Guru Mitra
 
-**Just‑in‑time classroom coach — WhatsApp bot + lightweight Flutter app**
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Status](https://img.shields.io/badge/status-demo%20ready-blue.svg)](#)
-
----
+> *Just‑in‑time classroom coach — APK demo (WhatsApp bot + mobile app)*
 
 <p align="center">
-  <!-- Replace the link below with your real hosted APK link or GitHub release asset -->
-  <a href="https://example.com/app-release.apk" target="_blank" rel="noopener">
+  <a href="https://github.com/<your-org>/gurumitra/releases/latest" target="_blank" rel="noopener">
     <img src="https://img.shields.io/badge/Download%20APK-%E2%86%93-brightgreen" alt="Download APK" />
   </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/<your-org>/gurumitra/blob/main/LICENSE" target="_blank">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
+  </a>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Status-Demo%20Ready-blue.svg" alt="Status" />
 </p>
 
 ---
 
-## What is Guru Mitra?
+## 🎯 Quick Summary
 
-Guru Mitra is a voice-first assistant for primary‑school teachers. It delivers quick, classroom-ready fixes (2–4 steps), a short teacher script, and management tips — delivered via WhatsApp voice notes or a lightweight mobile app. Designed for low-bandwidth, multi‑grade, and rural contexts.
-
-## Highlights
-
-* Voice input & voice output (WhatsApp + app)
-* Short actionable micro-interventions (15–30s teacher scripts)
-* Localized & translation-ready responses
-* Offline-first app with cached templates for low connectivity
-* CRP dashboard-ready: aggregate queries for mentors
+**Guru Mitra** is a voice-first assistant that helps primary‑school teachers solve live classroom problems via WhatsApp and a lightweight Android app (APK). Teachers send a short voice note and receive short, actionable fixes (2–4 steps), a teacher script (15–30s), and translation/TTS playback — all optimized for low-bandwidth, multi‑grade contexts.
 
 ---
 
-## Screenshots
+## ✨ Features
 
-> Replace the image paths with your actual screenshot files in `/assets/screenshots/`.
-
-**WhatsApp bot (1):**
-
-![WhatsApp Bot Screenshot](/assets/screenshots/whatsapp_bot.png)
-
-**Mobile App (3):**
-
-![App Screenshot 1](/assets/screenshots/app_screen_1.png)
-![App Screenshot 2](/assets/screenshots/app_screen_2.png)
-![App Screenshot 3](/assets/screenshots/app_screen_3.png)
+* ✅ **Voice-first**: Speak your problem in-app or on WhatsApp.
+* ✅ **Voice & Text replies**: Teacher-ready voice notes and short text steps.
+* ✅ **Localized**: Translation + TTS support for local languages.
+* ✅ **Offline-friendly**: Cached templates for low connectivity.
+* ✅ **Fast**: Designed for 15–60s interaction round-trips.
 
 ---
 
-## Quick Demo (what you’ll see)
+## 🖼 Demo Media
 
-1. Teacher records a short voice note in-app or on WhatsApp.
-2. Bot forwards audio to the LLM orchestrator.
-3. Model returns 2–4 actionable steps + a 15–30s teacher script.
-4. Bot converts response to a WhatsApp-compatible voice note and sends it back.
-5. Teacher hears or reads the reply, applies the fix, and optionally rates it.
+> Add your images and videos to `/assets/media/` and attach the APK in Releases. Replace placeholders with real file names.
 
----
+**Screenshots**
 
-## Download APK
+|                                WhatsApp Bot (1) |              Mobile App (3)              |
+| ----------------------------------------------: | :--------------------------------------: |
+| ![WhatsApp Bot](/assets/media/whatsapp_bot.png) | ![App 1](/assets/media/app_screen_1.png) |
+|                                                 | ![App 2](/assets/media/app_screen_2.png) |
+|                                                 | ![App 3](/assets/media/app_screen_3.png) |
 
-Click the badge above or use this link (replace with actual asset):
+**Short videos**
 
-**Download:** [app-release.apk](https://example.com/app-release.apk)
+* App walkthrough: `/assets/media/video_app_demo.mp4`
+* WhatsApp bot demo: `/assets/media/video_whatsapp_demo.mp4`
 
-*To attach the real APK to your repo:* push the APK to the GitHub Releases page and replace the link above with the release asset URL.
-
----
-
-## Getting started (Developer)
-
-> The repo contains two main parts: `bot/` (Node.js + Baileys) and `app/` (Flutter).
-
-### Prerequisites
-
-* Node.js 18+ and npm/yarn
-* Java JDK 11+, Android SDK
-* Flutter SDK (stable) + Android toolchain
-* ffmpeg installed on the server for audio conversion
-
-### Bot (quick start)
-
-```bash
-cd bot
-cp .env.example .env
-# Put your secrets into .env (do NOT commit real keys)
-npm install
-node engine.js
-```
-
-**Important:** Never commit your real API keys. Use environment variables and revoke any keys accidentally exposed.
-
-### App (quick start)
-
-```bash
-cd app
-flutter pub get
-flutter run --release
-# or build a single universal APK
-flutter build apk --release
-```
+> Tip: For GitHub Releases, attach the APK and video files. Large media can be attached to the Release or hosted externally (YouTube/Vimeo) and linked here.
 
 ---
 
-## Architecture (short)
+## 🧭 How the demo works (one‑liner flow)
 
-```
-Teacher (WhatsApp / Flutter app) 
-  -> WhatsApp Bot (Baileys) or App endpoint
-  -> Audio conversion (ffmpeg) -> LLM Orchestrator (prompts + context)
-  -> TTS -> Format as WhatsApp voice note -> Delivered back to teacher
-  -> Feedback stored for analytics & CRP dashboard
-```
+`Teacher (voice) → WhatsApp / App → Audio conversion (ffmpeg) → LLM (prompt + teacher context) → TTS → WhatsApp voice note / In‑app playback`
 
 ---
 
-## Configuration notes
+## 🧩 Tech Stack (icons)
 
-* Replace hard-coded keys with environment variables (`OPENAI_API_KEY`, `WHATSAPP_AUTH`, etc.).
-* Keep `debug-info` from obfuscation in a secure place (if you use `--obfuscate`).
-* Use Play App Signing for production distribution.
-
----
-
-## Contributing
-
-Contributions are welcome! Please open an issue or PR. Suggested areas:
-
-* Improve prompt templates for better pedagogy
-* Add language packs (Hindi/Hinglish) and localization
-* CRP dashboard visualizations
+<p>
+  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white" />
+  <img alt="Baileys" src="https://img.shields.io/badge/Baileys-FFCB2E?logo=whatsapp&logoColor=white" />
+  <img alt="FFmpeg" src="https://img.shields.io/badge/FFmpeg-202020?logo=ffmpeg&logoColor=white" />
+  <img alt="OpenAI/Gemini" src="https://img.shields.io/badge/LLM-Gemini-4B8BF5?logo=openai&logoColor=white" />
+  <img alt="Hive" src="https://img.shields.io/badge/Hive-FFCA28?logo=hive&logoColor=black" />
+</p>
 
 ---
 
-## Team
+## ⚙️ Included in this Release
+
+* `app-release.apk` — universal APK (attach to Releases)
+* Demo screenshots (placeholders under `/assets/media/`)
+* Short demo videos (app + WhatsApp)
+
+> **Note:** Source code is not included in this repo release. This is a demo-only release for distribution and judging.
+
+---
+
+## 📥 Download & Install
+
+1. Go to the **Releases** page and download `app-release.apk`.
+2. Install on Android device: `adb install app-release.apk` or open the APK on your phone.
+
+---
+
+## 🛡 Security & Privacy Notes
+
+* Do **not** hardcode API keys in the APK. Use server-side tokens for production.
+* Keep teacher data private: anonymize PII in analytics.
+
+---
+
+## 🧭 Run the demo locally (for maintainers)
+
+* Attach demo media under `/assets/media/`.
+* Add `app-release.apk` as a Release asset.
+* Update links in this README.
+
+---
+
+## 🧾 License
+
+MIT — see `LICENSE`.
+
+---
+
+## 👥 Team
 
 * **Krishna Sharma** — [krishnasharma.active@gmail.com](mailto:krishnasharma.active@gmail.com) — 7906839138
 * **Mukul Sharma** — [mukulpanditkana@gmail.com](mailto:mukulpanditkana@gmail.com) — 6397722693
 
 ---
 
-## License
+## 🎬 Want help preparing release assets?
 
-This project is released under the **MIT License**. See `LICENSE` for details.
+I can:
 
----
+* generate optimized screenshot templates (phone frames),
+* create a short demo GIF from your video, or
+* produce a polished Release description for GitHub.
 
-## Contact
 
-Questions? Email Krishna Sharma at `krishnasharma.active@gmail.com`.
-
----
-
-*Replace placeholder links and image paths with real assets before publishi
