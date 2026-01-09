@@ -19,7 +19,7 @@ Teachers send a short voice note and receive **quick, actionable guidance** with
 - Works via WhatsApp and mobile app
 - Short, practical classroom activities
 - Local language support (TTS + translation)
-- Offline-friendly app design
+- Low Internet-friendly app design
 
 ---
 
@@ -64,8 +64,8 @@ Teachers send a short voice note and receive **quick, actionable guidance** with
 ---
 
 ### 👥 Team
-- **Krishna Sharma** — krishnasharma.active@gmail.com — 7906839138  
-- **Mukul Sharma** — mukulpanditkana@gmail.com — 6397722693  
+- **Krishna Sharma** — [krishnasharma.active@gmail.com](mailto:krishnasharma.active@gmail.com) — [7906839138](tel:7906839138)  
+- **Mukul Sharma** — [mukulpanditkana@gmail.com](mailto:mukulpanditkana@gmail.com) — [6397722693](tel:6397722693)
 
 ---
 
