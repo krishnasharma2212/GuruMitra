@@ -36,13 +36,28 @@
 
 > Add your images and videos to `/assets/media/` and attach the APK in Releases. Replace placeholders with real file names.
 
-**Screenshots**
+## 🖼 Screenshots
 
-|                                WhatsApp Bot (1) |              Mobile App (3)              |
-| ----------------------------------------------: | :--------------------------------------: |
-| ![WhatsApp Bot](/assets/media/whatsappPhoto.jpg) | ![App 1](/assets/media/appPhoto1.jpg) |
-|                                                 | ![App 2](/assets/media/appPhoto2.jpg) |
-|                                                 | ![App 3](/assets/media/appPhoto3.jpg) |
+<div style="display:flex; gap:18px; align-items:flex-start; flex-wrap:wrap; margin-top:8px;">
+
+  <!-- Left: WhatsApp single shot -->
+  <div style="flex:1 1 360px; max-width:420px;">
+    <figure style="margin:0;">
+      <img src="/assets/media/whatsappPhoto.jpg" alt="WhatsApp Bot" style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.12);">
+      <figcaption style="text-align:center; font-size:12px; color:#666; margin-top:8px;">WhatsApp bot demo</figcaption>
+    </figure>
+  </div>
+
+  <!-- Right: App screenshots grid -->
+  <div style="flex:1 1 420px; max-width:720px; display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+    <img src="/assets/media/appPhoto1.jpg" alt="App screen 1" style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.10);">
+    <img src="/assets/media/appPhoto2.jpg" alt="App screen 2" style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.10);">
+    <!-- make the third image span both columns for emphasis -->
+    <img src="/assets/media/appPhoto3.jpg" alt="App screen 3" style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.10); grid-column:1 / -1;">
+    <div style="grid-column:1 / -1; text-align:center; font-size:12px; color:#666; margin-top:6px;">Mobile app — tips, scripts & playback</div>
+  </div>
+
+</div>
 
 ## 🎥 Watch the Demos
 
