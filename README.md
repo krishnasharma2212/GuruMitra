@@ -2,7 +2,7 @@
 
 *Just-in-time classroom coach (WhatsApp bot + Android app)*
 
-[![Download APK](https://img.shields.io/badge/Download%20APK-↓-brightgreen)](https://github.com/<your-org>/gurumitra/releases/latest)
+[![Download APK](https://img.shields.io/badge/Download%20APK-↓-brightgreen)](https://github.com/krishnasharma2212/GuruMitra/releases/latest)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Demo%20Ready-blue)
 
