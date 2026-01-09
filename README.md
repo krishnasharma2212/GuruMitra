@@ -1,153 +1,72 @@
 # 🚀 Guru Mitra
 
-> *Just‑in‑time classroom coach — APK demo (WhatsApp bot + mobile app)*
+*Just-in-time classroom coach (WhatsApp bot + Android app)*
 
-<p align="center">
-  <a href="https://github.com/<your-org>/gurumitra/releases/latest" target="_blank" rel="noopener">
-    <img src="https://img.shields.io/badge/Download%20APK-%E2%86%93-brightgreen" alt="Download APK" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/<your-org>/gurumitra/blob/main/LICENSE" target="_blank">
-    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
-  </a>
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/Status-Demo%20Ready-blue.svg" alt="Status" />
-</p>
+[![Download APK](https://img.shields.io/badge/Download%20APK-↓-brightgreen)](https://github.com/<your-org>/gurumitra/releases/latest)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Demo%20Ready-blue)
 
 ---
 
-## 🎯 Quick Summary
-
-**Guru Mitra** is a voice-first assistant that helps primary‑school teachers solve live classroom problems via WhatsApp and a lightweight Android app (APK). Teachers send a short voice note and receive short, actionable fixes (2–4 steps), a teacher script (15–30s), and translation/TTS playback — all optimized for low-bandwidth, multi‑grade contexts.
-
----
-
-## ✨ Features
-
-* ✅ **Voice-first**: Speak your problem in-app or on WhatsApp.
-* ✅ **Voice & Text replies**: Teacher-ready voice notes and short text steps.
-* ✅ **Localized**: Translation + TTS support for local languages.
-* ✅ **Offline-friendly**: Cached templates for low connectivity.
-* ✅ **Fast**: Designed for 15–60s interaction round-trips.
+### 📌 Overview
+**Guru Mitra** is a voice-first assistant that helps teachers solve real classroom problems instantly.  
+Teachers send a short voice note and receive **quick, actionable guidance** with a short teacher script — designed for low-internet and multi-grade classrooms.
 
 ---
 
-## 🖼 Demo Media
-
-> Add your images and videos to `/assets/media/` and attach the APK in Releases. Replace placeholders with real file names.
-
-## 🖼 Screenshots
-
-<div style="display:flex; gap:18px; align-items:flex-start; flex-wrap:wrap; margin-top:8px;">
-
-  <!-- Left: WhatsApp single shot -->
-  <div style="flex:1 1 360px; max-width:420px;">
-    <figure style="margin:0;">
-      <img src="/assets/media/whatsappPhoto.jpg" alt="WhatsApp Bot" style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.12);">
-      <figcaption style="text-align:center; font-size:12px; color:#666; margin-top:8px;">WhatsApp bot demo</figcaption>
-    </figure>
-  </div>
-
-  <!-- Right: App screenshots grid -->
-  <div style="flex:1 1 420px; max-width:720px; display:grid; grid-template-columns:1fr 1fr; gap:12px;">
-    <img src="/assets/media/appPhoto1.jpg" alt="App screen 1" style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.10);">
-    <img src="/assets/media/appPhoto2.jpg" alt="App screen 2" style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.10);">
-    <!-- make the third image span both columns for emphasis -->
-    <img src="/assets/media/appPhoto3.jpg" alt="App screen 3" style="width:100%; height:auto; border-radius:12px; box-shadow:0 8px 24px rgba(0,0,0,0.10); grid-column:1 / -1;">
-    <div style="grid-column:1 / -1; text-align:center; font-size:12px; color:#666; margin-top:6px;">Mobile app — tips, scripts & playback</div>
-  </div>
-
-</div>
-
-## 🎥 Watch the Demos
-
-<div align="center">
-
-[![App Demo](https://img.youtube.com/vi/YOUR_APP_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/YOUR_APP_VIDEO_ID)
-**App walkthrough** • 30–60s • _TTS, quick fixes_
-
-&nbsp;&nbsp;&nbsp;
-
-[![WhatsApp Demo](https://img.youtube.com/vi/YOUR_WA_VIDEO_ID/maxresdefault.jpg)](https://youtu.be/YOUR_WA_VIDEO_ID)
-**WhatsApp bot demo** • 30–60s • _Voice note → reply_
-
-</div>
-
-
-> Tip: For GitHub Releases, attach the APK and video files. Large media can be attached to the Release or hosted externally (YouTube/Vimeo) and linked here.
+### ✨ Key Features
+- Voice-in, voice-out support
+- Works via WhatsApp and mobile app
+- Short, practical classroom activities
+- Local language support (TTS + translation)
+- Offline-friendly app design
 
 ---
 
-## 🧭 How the demo works (one‑liner flow)
+### 🖼 Screenshots
 
-`Teacher (voice) → WhatsApp / App → Audio conversion (ffmpeg) → LLM (prompt + teacher context) → TTS → WhatsApp voice note / In‑app playback`
-
----
-
-## 🧩 Tech Stack (icons)
-
-<p>
-  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white" />
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D?logo=node.js&logoColor=white" />
-  <img alt="Baileys" src="https://img.shields.io/badge/Baileys-FFCB2E?logo=whatsapp&logoColor=white" />
-  <img alt="FFmpeg" src="https://img.shields.io/badge/FFmpeg-202020?logo=ffmpeg&logoColor=white" />
-  <img alt="OpenAI/Gemini" src="https://img.shields.io/badge/LLM-Gemini-4B8BF5?logo=openai&logoColor=white" />
-  <img alt="Hive" src="https://img.shields.io/badge/Hive-FFCA28?logo=hive&logoColor=black" />
-</p>
+| WhatsApp Bot | Mobile App |
+|-------------|------------|
+| <img src="/assets/media/whatsappPhoto.jpg" width="260"/> | <img src="/assets/media/appPhoto1.jpg" width="180"/> <img src="/assets/media/appPhoto2.jpg" width="180"/> <img src="/assets/media/appPhoto3.jpg" width="180"/> |
 
 ---
 
-## ⚙️ Included in this Release
+### 🎥 Demo Videos
 
-* `app-release.apk` — universal APK (attach to Releases)
-* Demo screenshots (placeholders under `/assets/media/`)
-* Short demo videos (app + WhatsApp)
-
-> **Note:** Source code is not included in this repo release. This is a demo-only release for distribution and judging.
+| App Demo | WhatsApp Bot Demo |
+|---------|------------------|
+| [![App Demo](https://img.youtube.com/vi/YOUR_APP_VIDEO_ID/hqdefault.jpg)](https://youtu.be/YOUR_APP_VIDEO_ID) | [![WhatsApp Demo](https://img.youtube.com/vi/YOUR_WA_VIDEO_ID/hqdefault.jpg)](https://youtu.be/YOUR_WA_VIDEO_ID) |
 
 ---
 
-## 📥 Download & Install
-
-1. Go to the **Releases** page and download `app-release.apk`.
-2. Install on Android device: `adb install app-release.apk` or open the APK on your phone.
+### 🔄 How it Works
+`Teacher voice → App / WhatsApp → AI processing → Voice reply → Classroom use`
 
 ---
 
-## 🛡 Security & Privacy Notes
-
-* Do **not** hardcode API keys in the APK. Use server-side tokens for production.
-* Keep teacher data private: anonymize PII in analytics.
-
----
-
-## 🧭 Run the demo locally (for maintainers)
-
-* Attach demo media under `/assets/media/`.
-* Add `app-release.apk` as a Release asset.
-* Update links in this README.
+### 🧩 Tech Stack
+![Flutter](https://img.shields.io/badge/Flutter-blue?logo=flutter)
+![Node.js](https://img.shields.io/badge/Node.js-green?logo=node.js)
+![WhatsApp](https://img.shields.io/badge/WhatsApp-Bot-25D366?logo=whatsapp)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-black?logo=ffmpeg)
+![AI](https://img.shields.io/badge/AI-Gemini-blue)
 
 ---
 
-## 🧾 License
+### 📦 Release Contents
+- Universal Android APK
+- Demo screenshots
+- Short demo videos
 
-MIT — see `LICENSE`.
-
----
-
-## 👥 Team
-
-* **Krishna Sharma** — [krishnasharma.active@gmail.com](mailto:krishnasharma.active@gmail.com) — 7906839138
-* **Mukul Sharma** — [mukulpanditkana@gmail.com](mailto:mukulpanditkana@gmail.com) — 6397722693
+> Source code is not included in this demo repository.
 
 ---
 
-## 🎬 Want help preparing release assets?
+### 👥 Team
+- **Krishna Sharma** — krishnasharma.active@gmail.com — 7906839138  
+- **Mukul Sharma** — mukulpanditkana@gmail.com — 6397722693  
 
-I can:
+---
 
-* generate optimized screenshot templates (phone frames),
-* create a short demo GIF from your video, or
-* produce a polished Release description for GitHub.
-
-
+### 📄 License
+MIT License
